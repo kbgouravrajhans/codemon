@@ -39,7 +39,7 @@ app.post('/', async (req, res) => {
       bot: response.data.choices[0].text
     });
 
-    console.log(response.data.choices[0].text)
+    console.log(bot)
 
   } catch (error) {
     console.error(error)
